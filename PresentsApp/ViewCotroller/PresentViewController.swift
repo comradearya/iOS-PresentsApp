@@ -126,9 +126,7 @@ extension PresentViewController: UITableViewDelegate, UITableViewDataSource {
     
     private func loadData(){
         self.presentsList = RealmHelper.getObjects()
-        print(presentsList.description)
         self.pointsLabel.text = self.pointsController.balanceLabel(afterSelecting: presentsList.filter({$0.selected}))
-        print( presentsList.filter({$0.selected}).count)
     }
     
     private func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCell.EditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
