@@ -69,8 +69,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HzZ-XL-TkA">
                                 <rect key="frame" x="20" y="59" width="280" height="145.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va6-wn-nmL">
-                                        <rect key="frame" x="96.5" y="56.5" width="87" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/100" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va6-wn-nmL">
+                                        <rect key="frame" x="96" y="56.5" width="88" height="32"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                         <color key="highlightedColor" systemColor="systemGreenColor"/>
                                         <color key="shadowColor" systemColor="systemGrayColor"/>
@@ -80,7 +80,7 @@
                                 <constraints>
                                     <constraint firstItem="va6-wn-nmL" firstAttribute="centerX" secondItem="HzZ-XL-TkA" secondAttribute="centerX" id="4MH-Iu-tUx"/>
                                     <constraint firstItem="va6-wn-nmL" firstAttribute="top" secondItem="HzZ-XL-TkA" secondAttribute="top" constant="56.666666666666863" id="8O0-49-t90"/>
-                                    <constraint firstItem="va6-wn-nmL" firstAttribute="leading" secondItem="HzZ-XL-TkA" secondAttribute="leading" constant="96.666666666666686" id="Prl-ZT-JST"/>
+                                    <constraint firstItem="va6-wn-nmL" firstAttribute="leading" secondItem="HzZ-XL-TkA" secondAttribute="leading" constant="96" id="Prl-ZT-JST"/>
                                     <constraint firstItem="va6-wn-nmL" firstAttribute="centerY" secondItem="HzZ-XL-TkA" secondAttribute="centerY" id="nI6-jO-KIl"/>
                                 </constraints>
                             </view>
