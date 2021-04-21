@@ -76,8 +76,10 @@ final class AddPresentViewController: UIViewController {
         if let priceInput = Double(pricePresentInput.text!) {
             if priceInput < 100 {
                 return true
+            } else {
+                labelOutput.text = AddPresentLabel.priceIsBigger
+                return false 
             }
-            labelOutput.text = AddPresentLabel.priceIsBigger
         }
         labelOutput.text = AddPresentLabel.priceIsNotDouble
         return false
