@@ -33,7 +33,7 @@ class PresentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presentsList.append(contentsOf: InitController.initFirstLaunch())
+        InitController.initFirstLaunch()
         checked = [Bool](repeating: false, count: presentsList.count)
         presentsTableView.delegate = self
         presentsTableView.dataSource = self

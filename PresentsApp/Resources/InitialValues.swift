@@ -8,7 +8,7 @@
 import Foundation
 
 class InitController {
-    static func initFirstLaunch() -> [Present] {
+    static func initFirstLaunch() {
         var list = [Present]()
         let present = Present()
         present.price = 7
@@ -25,6 +25,6 @@ class InitController {
         housePresent.title = "house"
         list.append(housePresent)
 
-        return list
+        RealmHelper.saveObjects(objects: list)
     }
 }
